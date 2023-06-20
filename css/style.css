@@ -155,17 +155,16 @@ img {
 
 }
 
-.bg-green {
-    background-color: green;
-    height: 600px;
-}
 
 
 .bg-black {
     background-color: #23272a;
-
 }
 
+
+.bg-cyan {
+    background-color: #8da0e0;
+}
 
 .bg-salmon {
     background-color: salmon;
@@ -228,5 +227,6 @@ footer {
     border-radius: 20px;
     padding: 12px;
     border: none;
+    font-size: bolder;
 
 }
