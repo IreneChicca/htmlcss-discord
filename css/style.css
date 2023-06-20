@@ -37,12 +37,12 @@ img {
 }
 
 .col-1-3 {
-    width: 40%;
+    width: 30%;
 
 }
 
 .col-2-3 {
-    width: 60%;
+    width: 65%;
 }
 
 
@@ -85,6 +85,12 @@ img {
     padding: 25px;
 }
 
+.padding-l {
+    padding: 55px;
+}
+
+
+
 .pad-s {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -93,6 +99,11 @@ img {
 .pad-m {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.pad-l {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -138,8 +149,9 @@ img {
 
 }
 
+/* colore bg grey #f6f6f6*/
 .bg-grey {
-    background-color: #d3d3d3;
+    background-color: #9e9e9e;
 
 }
 
