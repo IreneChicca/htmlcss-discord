@@ -12,8 +12,12 @@
 
 html,
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #23272a;
+}
 
+img {
+    max-width: 100%;
 }
 
 .col-1-6 {
@@ -56,9 +60,21 @@ body {
     justify-content: center;
 }
 
+.center-align {
+    align-items: center;
+}
+
+.padding-s {
+    padding: 15px;
+}
+
+.padding-m {
+    padding: 25px;
+}
+
 .pad-s {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .pad-m {
@@ -66,12 +82,15 @@ body {
     padding-bottom: 30px;
 }
 
-.border {
-    border: 1px dashed black;
+
+/* CSS TEXT */
+
+.txt-s {
+    font-size: 0.8rem;
 }
 
-.w-border {
-    border: 1px dashed white;
+.txt-m {
+    font-size: 1.2rem;
 }
 
 .txt-sx {
@@ -87,12 +106,12 @@ body {
 }
 
 
+.txt-white {
+    color: #ffff;
+}
+
 /*** BG COLORS ***/
 
-.bg-light {
-    background-color: lightblue;
-    padding: 10px;
-}
 
 .bg-violet {
     background-color: violet;
@@ -111,11 +130,7 @@ body {
 }
 
 
-.bg-sky {
-    background-color: dodgerblue;
-    height: var(--height);
 
-}
 
 
 .bg-grey {
@@ -156,13 +171,14 @@ body {
 /********** UTILITIES ************/
 
 nav {
-    background-color: goldenrod;
+    background-color: #3161e0;
     justify-content: space-between;
+
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 p {
@@ -179,4 +195,17 @@ footer {
 .test {
     margin-top: 15px;
     justify-content: space-between;
+}
+
+
+.bg-sky {
+    background-color: #3161e0;
+}
+
+
+.btn {
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+
 }
