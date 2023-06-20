@@ -65,14 +65,17 @@ img {
     align-items: center;
 }
 
-.justify-space {
-    justify-content: space-around;
-}
 
 .align-top {
     align-items: top;
 }
 
+.jumbo-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 35px;
+}
 
 /* PADDING E MARGIN*/
 
@@ -132,7 +135,10 @@ img {
 }
 
 
-
+h4,
+.txt-cyan {
+    color: #8da0e0;
+}
 
 
 /*** BG COLORS ***/
@@ -142,10 +148,10 @@ img {
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
     padding: 30px;
-    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
 }
 
@@ -166,6 +172,7 @@ img {
     background-color: #8da0e0;
 }
 
+
 .bg-salmon {
     background-color: salmon;
     height: var(--height)
@@ -180,9 +187,7 @@ img {
     background-color: aquamarine;
 }
 
-.bg-rose {
-    background-color: #ffb6c1;
-}
+
 
 /********** UTILITIES ************/
 
@@ -206,8 +211,13 @@ h1 {
     font-size: 2.8rem;
 }
 
+h2 {
+    font-size: 1.8rem;
+    ;
+}
+
 footer {
-    border-top: 1px solid white;
+    border-top: 1px solid #8da0e0;
 
 }
 
@@ -228,5 +238,19 @@ footer {
     padding: 12px;
     border: none;
     font-size: bolder;
+}
 
+
+
+li {
+    list-style: none;
+    padding: 5px 0;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.flag {
+    width: 25px;
+    height: 15px;
+    margin-right: 10px;
 }
