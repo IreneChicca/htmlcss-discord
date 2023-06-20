@@ -247,3 +247,9 @@ i {
     margin-right: 20px;
     font-size: 1.1em;
 }
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
