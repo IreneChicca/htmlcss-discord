@@ -173,20 +173,6 @@ h4,
 }
 
 
-.bg-salmon {
-    background-color: salmon;
-    height: var(--height)
-}
-
-.bg-turq {
-    background-color: darkturquoise;
-    height: var(--height)
-}
-
-.bg-aqua {
-    background-color: aquamarine;
-}
-
 
 
 /********** UTILITIES ************/
@@ -215,8 +201,9 @@ h2 {
     font-size: 1.9rem;
 }
 
-footer {
+.bottom {
     border-top: 1px solid #8da0e0;
+    padding-bottom: 50px;
 
 }
 
